@@ -337,6 +337,20 @@ input[data-error]::after {
   cursor: pointer;
   border: 0;
 }
+
+/* ========== THANK YOU MODAL ========== */
+
+#thank-you {
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-close {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 2em;
+}
+
 /* ========== custom select styles ========== */
 .custom-select {
   position: relative;
